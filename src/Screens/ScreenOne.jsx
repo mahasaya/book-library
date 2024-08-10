@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Modal from "../Components/CustomModal";
 import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
+import myImage from "./assets/dataweaver.png"
 const ScreenOne = () => {
   const API_URL = " http://64.227.142.191:8080/application-test-v1.1/books";
 
@@ -200,7 +201,7 @@ const ScreenOne = () => {
                 />
               )}
 
-              <img className="img " src={`${process.env.PUBLIC_URL}/images/my-image.png`} />
+              <img className="img " src={myImage} />
             </span>
           </h1>
         </div>
