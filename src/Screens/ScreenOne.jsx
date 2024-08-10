@@ -200,7 +200,7 @@ const ScreenOne = () => {
                 />
               )}
 
-              <img className="img " src="src\assets\dataweaver.png" />
+              <img className="img " src={`${process.env.PUBLIC_URL}/images/my-image.png`} />
             </span>
           </h1>
         </div>
