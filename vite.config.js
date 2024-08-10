@@ -3,8 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"/book-library/",
   plugins: [react()],
-  build: {
-    outDir: 'build',  // Change output directory to 'build'
-  },
 })
